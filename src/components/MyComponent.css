@@ -1,0 +1,29 @@
+/* CSS for Division 2 - Images */
+.left-side {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%; /* Adjust the width as needed */
+    float: left;
+    padding: 20px; /* Add spacing as needed */
+  }
+  
+  .left-side img {
+    max-width: 100%; /* Ensure images don't exceed the container */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  /* CSS for Division 3 - Text */
+  .right-side {
+    width: 50%; /* Adjust the width as needed */
+    float: left;
+    padding: 20px; /* Add spacing as needed */
+    text-align: center;
+  }
+  
+  .right-side p {
+    font-size: 18px;
+    color: #333; /* Text color */
+    font-weight: bold; /* Adjust as needed */
+  }
+  
